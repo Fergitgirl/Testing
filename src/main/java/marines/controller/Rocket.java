@@ -62,7 +62,6 @@ public abstract class Rocket implements SpaceShip {
 
 	@Override
 	public boolean launch() {
-		// TODO Auto-generated method stub
 		int chance = (probLaunch / 100) * (this.weight / this.maxWeight);
 		return chance < ((new Random()).nextInt(100));
 	}
