@@ -1,5 +1,8 @@
 package main.java.marines.data;
 
+/**
+ * @author Marines Lopez
+ */
 public enum ItemType {
 	HABITATS("Habitat"),
 	BUNKERS("bunkers"),
